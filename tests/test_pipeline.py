@@ -203,3 +203,4 @@ class TestIntegration:
         assert result.validation.is_valid
         assert "invoice_number" in result.extracted_data
 
+

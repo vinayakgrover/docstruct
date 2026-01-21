@@ -3,6 +3,8 @@
 ### Context:
 A Fortune 500 customer has a document lake containing thousands of unstructured business documents — shipping orders, invoices, inventory reports, and purchase orders. They need to automatically classify incoming documents and extract structured metadata so it can flow into their Collibra data catalog.
 
+Dataset: https://huggingface.co/datasets/AyoubChLin/CompanyDocuments 
+
 ### Your task:
 Build a document processing pipeline in Python that:
 
@@ -12,5 +14,4 @@ Build a document processing pipeline in Python that:
    - `inventory_report`
    - `purchase_order`
 
-2. **Extracts** structured data from document text into a standardized JSON schema
-
+2. **Extracts** structured data from document text into a standardized JSON schema.     

@@ -143,3 +143,4 @@ class TestValidationResult:
         assert not result.is_valid
         assert len(result.errors) == 2
 
+
